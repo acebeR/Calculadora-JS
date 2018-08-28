@@ -1,0 +1,57 @@
+  label
+  {
+    position:relative;
+    left:3%;
+    top:3;
+    width:320px;
+    height:270px;
+	font-weight: 900;
+	color: rgb(71, 79, 91);
+	font-size: 21px;
+  }
+
+  fieldset
+  {
+    background-color:#F8EFFB;
+    width:180px;
+    height:320px;
+  }
+
+  input
+  {
+	font-weight: 100;
+	color: rgb(71, 79, 91);
+	font-size: 21px;
+  }
+
+.button.login button,
+.button button {
+   width: 100%;
+   line-height: 25px;
+   left: 0%;
+   background-color: transparent;
+   font-weight: 900;
+   font-size: 19px;
+   color: rgb(71, 79, 91);
+}
+.button.login {
+   margin-top: 20%;
+	margin-left:12%;	
+}
+.img{
+	background-image:url(img/fundo.jpg);
+	
+}	
+.organizar{
+	margin-top: 15%;
+	margin-left:40%;
+}	
+.tableLabel{
+	margin-top: 15%;
+	margin-left:2%;	
+}	
+
+
+
+
+

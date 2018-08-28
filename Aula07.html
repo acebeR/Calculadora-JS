@@ -1,0 +1,62 @@
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+ <head>
+   
+     <title>Aula07 - Operadores</title>
+ 	
+<script type="text/javascript" src="Aula07.js"></script>	<!-- Chamar JavaScript -->
+<!--<script type="text/javascript" src="C:/Users/uc15101831/Downloads/Aula07.js"></script>	-->
+<link rel="stylesheet" type="text/css" href="Aula07.css" media="all" /><!-- Cahamar css--> 
+ </head>
+
+<body class="img">
+<form id="formulario" class = "textarea">
+
+    
+	<fieldset class="organizar">
+		<label>Calculadora</label>
+	
+		<table id="resultados"  class="tableLabel">
+			<tr>
+				<th><input type="text" id="numeroDigitado" name="numeroDigitado" size="11"/></th>
+				
+			</tr>
+			<tr>
+				<th><input type="text" id="numeroDoMomento" name="numeroDoMomento" size="11"/></th>
+			</tr>
+		
+		</table>
+		<div>
+			<table id="numeros" class="button login ">
+					
+				<tr>
+					<th><button type="button" value="7" id="numero7" onclick="numeroPrecionado(7);">7</button></th>
+					<th><button type="button" value="8" id="numero8" onclick="numeroPrecionado(8);">8</button></th>
+					<th><button type="button" value="9" id="numero9" onclick="numeroPrecionado(9);">9</button></th>
+					<th><button type="button" value="x" id="multiplicacao" onclick="operacao('x');">x</button></th>
+				</tr>
+				<tr>
+					<th><button type="button" value="4" id="numero4" onclick="numeroPrecionado(4);">4</button></th>
+					<th><button type="button" value="5" id="numero5" onclick="numeroPrecionado(5);">5</button></th>
+					<th><button type="button" value="6" id="numero6" onclick="numeroPrecionado(6);">6</button></th>
+					<th><button type="button" value="-" id="subtracao" onclick="operacao('-');">-</button></th>
+				</tr>
+				<tr>
+					<th><button type="button" value="1" id="numero1" onclick="numeroPrecionado(1);">1</button></th>
+					<th><button type="button" value="2" id="numero2" onclick="numeroPrecionado(2);">2</button></th>
+					<th><button type="button" value="3" id="numero3" onclick="numeroPrecionado(3);">3</button></th>
+					<th><button type="button" value="+" id="soma" onclick="operacao('+');">+</button></th>
+				</tr>
+				<tr>
+					<th><button type="button" value="apagar" id="apagar" onclick="apagarTxt();">C</button></th>
+					<th><button type="button" value="0" id="numero0" onclick="numeroPrecionado(0);">0</button></th>
+					<th><button type="button" value= "/" id="dividir" onclick="operacao('/');" name="">/</button></th>
+					<th><button type="button" value="=" id="igual" onclick="operacao('=');">=</button></th>
+				</tr>
+			</table>
+			
+		</div>
+	</fieldset>
+</form>	
+</body>
+</html>
